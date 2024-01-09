@@ -1,0 +1,83 @@
+.NavLinks{
+
+}
+.Title{
+color:darkblue;
+font-weight: bold;
+font-size: 20px;
+margin-left:50px;
+  margin-right:50px;
+}
+.NavBtn{
+
+  background-color: darkblue;
+  color: white;
+padding:10px; 
+position: absolute;
+ /* Vertically center the button */
+right: 100px; /* Adjust right position as needed */
+}
+nav {
+  display: flex;
+  align-items: center;
+  background-color:white;
+  padding: 10px;
+  height: 100px;
+  
+
+}
+
+nav a {
+  color:darkblue;
+  text-decoration: none;
+  margin-left:  35px;
+}
+
+nav a:hover {
+  color:black;
+
+}
+
+/* Styles for the dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Styles for the dropdown button */
+.dropbtn {
+  color: darkblue;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styles for the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 300px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Styles for the dropdown links */
+.dropdown-content a {
+  color: darkblue;
+  margin: auto;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown content when the dropdown button is clicked */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
